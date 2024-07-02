@@ -32,3 +32,16 @@ function parseRouteUrls(node, url, urls) {
   // Code End
 }
 console.log(parseRouteUrls(Routes, 'https://www.example.com', []));
+
+
+/*
+Output:
+-------
+https://www.example.com/account-information
+https://www.example.com/account-information/billing
+https://www.example.com/account-information/billing/subscriptions
+https://www.example.com/account-information/billing/payment-methods
+https://www.example.com/projects
+https://www.example.com/projects/dashboard
+https://www.example.com/projects/search
+*/
