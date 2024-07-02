@@ -17,7 +17,6 @@ Rules:
 See full expected output below:
 ```
 https://www.example.com/account-information
-https://www.example.com/account-information/profile
 https://www.example.com/account-information/billing
 https://www.example.com/account-information/billing/subscriptions
 https://www.example.com/account-information/billing/payment-methods
